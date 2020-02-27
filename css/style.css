@@ -28,6 +28,9 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
   text-align: center;
   padding: 5em;
 }
+.services-cards {
+  padding-bottom: 3em;
+}
 
 .hero-content {
   text-align: center;
@@ -47,6 +50,7 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
 
 .testimonial-text {
   margin: 0 30%;
+  font-size: 1.15em;
 }
 
 .testimonial-name {
