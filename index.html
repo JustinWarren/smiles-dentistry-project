@@ -40,7 +40,7 @@
     <!-- Hero Image Header -->
     <!-- Photo by Michael Browning on Unsplash -->
     <section class="bg-overlay hero">
-      <div class="container">
+      <div class="container hero-content">
         <h1 class="main-header">Call for a Free Check-up</h1>
         <button class="btn-lg btn-success" type="button" name="button">Learn More</button>
       </div>
@@ -53,35 +53,53 @@
       </div>
     </section>
 
+   <!-- Note:  I was having issues with the cards not laying out in three column layout in large screen.  Issue was resolved by putting a div around each card with col-md-4.  I needed one more div to surround the card.  Solution was found by looking at source code from https://getbootstrap.com/docs/4.4/examples/album/ -->
     <section class="container">
       <div class="row">
 
-        <div class="col  card m-3">
-          <div class="card-body">
-            <h4 class="card-title">Cleanings</h4>
-            <p class="card-text">We have a team of great dental hygienists ready to serve you. Our hygienists are fully licensed will ensure you have a great visit.</p>
+        <div class="col-md-4">
+          <div class=" card m-3">
+            <div class="card-body">
+              <h4 class="card-title">Cleanings</h4>
+              <p class="card-text">We have a team of great dental hygienists ready to serve you. Our hygienists are fully licensed will ensure you have a great visit.</p>
+            </div>
           </div>
         </div>
 
-        <div class="col card m-3">
-          <div class="card-body">
-            <h4 class="card-title">Fillings</h4>
-            <p class="card-text">Have a cavity that needs filling?  We offer state-of-the-art fillings to ensure that your teeth look and feel great.</p>
-
+        <div class="col-md-4">
+          <div class="card m-3">
+            <div class="card-body">
+              <h4 class="card-title">Fillings</h4>
+              <p class="card-text">Have a cavity that needs filling?  We offer state-of-the-art fillings to ensure that your teeth look and feel great.</p>
+            </div>
           </div>
         </div>
 
-        <div class="col card m-3">
-          <div class="card-body">
-            <h4 class="card-title">Whitening</h4>
-            <p class="card-text">Need to polish up those pearl whites?  We utilize our patented WhiteTek whitening system to ensure that your smile looks great!</p>
+        <div class="col-md-4 ">
+          <div class="card m-3">
+            <div class="card-body">
+              <h4 class="card-title">Whitening</h4>
+              <p class="card-text">Need to polish up those pearl whites?  We utilize our patented WhiteTek whitening system to ensure that your smile looks great!</p>
+            </div>
           </div>
         </div>
+
       </div>
 
     </section>
 
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="testimonials-header">
+        <h2>Testimonials</h2>
+      </div>
+      <div class="testimonial-text">
+        <p><i>"I've been coming to Smiles Dentistry for over 10 years and they always do a great job! Dr. Smith and his team offer top-notch service!"</i></p>
+        <p class="testimonial-name">- Janet</p>
+      </div>
+    </section>
 
+    section
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

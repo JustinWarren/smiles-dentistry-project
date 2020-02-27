@@ -26,10 +26,29 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
 /* SERVICES SECTION */
 .services-header {
   text-align: center;
-  padding-top: 5em;
+  padding: 5em;
 }
 
-.container {
+.hero-content {
   text-align: center;
-  padding-top: 10em;
+  padding-top: 12em;
+}
+
+  /* TESTIMONIALS HEADER */
+.testimonials {
+  background-color: #EFEFEF;
+  padding-bottom: 3em;
+}
+
+.testimonials-header {
+  text-align: center;
+  padding: 5em;
+}
+
+.testimonial-text {
+  margin: 0 30%;
+}
+
+.testimonial-name {
+  text-align: right;
 }
