@@ -6,14 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <script src="https://use.fontawesome.com/026f964dc7.js"></script>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
   <!-- My Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
   <title>Smiles Dentistry</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-primary">
+  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark">
     <a class="navbar-brand" href="#">Smiles Dentistry</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,17 +25,17 @@
       <!-- ml-auto allows menu items to align right -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="mr-2 nav-link" href="#">Home</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">About</a>
+          <a class="mr-2 nav-link" href="#">About</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Services</a>
+          <a class="mr-2 nav-link" href="#">Services</a>
           </li
         </ul>
         <form class="form-inline">
-          <button class="btn btn-success" type="button" name="button">Contact</button>
+          <button class="mr-2 btn" type="button" name="button">Contact</button>
         </form>
       </div>
     </nav>
@@ -58,9 +61,10 @@
       <div class="row">
 
         <div class="col-md-4">
+          <i class="fas fa-tooth"></i>
           <div class=" card m-3">
             <div class="card-body">
-              <h4 class="card-title">Cleanings</h4>
+              <h4 class="card-title text-center">Cleanings</h4>
               <p class="card-text">We have a team of great dental hygienists ready to serve you. Our hygienists are fully licensed will ensure you have a great visit.</p>
             </div>
           </div>
@@ -69,7 +73,7 @@
         <div class="col-md-4">
           <div class="card m-3">
             <div class="card-body">
-              <h4 class="card-title">Fillings</h4>
+              <h4 class="card-title text-center">Fillings</h4>
               <p class="card-text">Have a cavity that needs filling?  We offer state-of-the-art fillings to ensure that your teeth look and feel great.</p>
             </div>
           </div>
@@ -78,7 +82,7 @@
         <div class="col-md-4 ">
           <div class="card m-3">
             <div class="card-body">
-              <h4 class="card-title">Whitening</h4>
+              <h4 class="card-title text-center">Whitening</h4>
               <p class="card-text">Need to polish up those pearl whites?  We utilize our patented WhiteTek whitening system to ensure that your smile looks great!</p>
             </div>
           </div>
@@ -93,31 +97,96 @@
       <div class="testimonials-header">
         <h2>Testimonials</h2>
       </div>
-      <div class="testimonial-text">
-        <p><i>"I've been coming to Smiles Dentistry for over 10 years and they always do a great job! Dr. Smith and his team offer top-notch service!"</i></p>
-        <p class="testimonial-name">- Janet</p>
-      </div>
-    </section>
 
-    <section>
-      <div class="">
+    <div class="row">
 
-
-        <div class="">
-
-        </div>
-        <div class="">
-
-        </div>
-        <div class="">
-
+      <div class="col-md-4">
+        <div class=" card m-4">
+          <div class="card-body">
+            <!-- <h4 class="card-title text-title">Cleanings</h4> -->
+            <!-- <p class="card-text">We have a team of great dental hygienists ready to serve you. Our hygienists are fully licensed will ensure you have a great visit.</p> -->
+            <div>
+            <p><i>"I've been coming to Smiles Dentistry for over 10 years and they always do a great job! Dr. Smith and his team offer top-notch service!"</i></p>
+            <p class="testimonial-name">- Janet</p>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-  </html>
+    </div>
+
+      <div class="col-md-4">
+        <div class="card m-4">
+          <div class="card-body">
+            <div>
+            <p><i>"The doctors and staff do a great job overall.  They helped my 10 year old son overcome his fear of the dentist!  Thank you Smiles Dentistry!"</i></p>
+            <p class="testimonial-name">- Monica</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-md-4 ">
+        <div class="card m-4">
+          <div class="card-body">
+            <div >
+            <p><i>"I couldn't say enough great things about Smiles Dentistry.  They have taken care of the dental needs of my family for years."</i></p>
+            <p class="testimonial-name">- Steven</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer>
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class=" card m-3">
+          <div class="card-body">
+            <h4 class="card-title text-center">Locations</h4>
+            <p class="card-text text-center">28193 New Cut Road </br>
+              Charlotte, NC 29134</p>
+              <p class="card-text text-center">3948 Radison Avenue </br>
+                Charlotte, NC 29134</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card m-3">
+              <div class="card-body">
+                <h4 class="card-title text-center">Let's Connect</h4>
+                <div class="text-center">
+                  <i class="fa fa-facebook-square fa-3x icons"></i>
+                  <i class="fa fa-twitter-square fa-3x icons"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 ">
+            <div class="card m-3">
+              <div class="card-body">
+                <h4 class="card-title text-center">Newsletter</h4>
+                <div class="input-group mt-5">
+                  <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-success" type="button" id="button-addon2">Sign-Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </footer>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+    </html>
