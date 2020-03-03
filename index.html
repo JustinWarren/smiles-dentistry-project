@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
   <!-- Font Awesome Icons -->
   <script src="https://use.fontawesome.com/026f964dc7.js"></script>
   <!-- Bootstrap CSS -->
@@ -16,8 +16,13 @@
   <title>Smiles Dentistry</title>
 </head>
 <body>
+  <!-- Helpful code snippet on navbar brand from :
+  https://startbootstrap.com/snippets/navbar-logo/ -->
   <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark">
-    <a class="navbar-brand" href="#">Smiles Dentistry</a>
+    <!-- Logo image created using canva -->
+    <a class="navbar-brand" href="#">
+    <img  src="images/smiles-logo.png" height="45px" alt="Logo that says smiles dentistry with small white tooth icon" >
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,13 +30,13 @@
       <!-- ml-auto allows menu items to align right -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="mr-2 nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item active">
           <a class="mr-2 nav-link" href="#">About</a>
         </li>
         <li class="nav-item active">
-          <a class="mr-2 nav-link" href="#">Services</a>
+          <a class="mr-2 nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item active">
+          <a class="mr-2 nav-link" href="#testimonials">Testimonials</a>
           </li
         </ul>
         <form class="form-inline">
@@ -45,12 +50,12 @@
     <section class="bg-overlay hero">
       <div class="container hero-content">
         <h1 class="main-header">Call for a Free Check-up</h1>
-        <button class="btn-lg btn-success" type="button" name="button">Learn More</button>
+        <button class="btn btn-lg" type="button" name="button">Learn More</button>
       </div>
     </section>
 
     <!-- Services section -->
-    <section>
+    <section id="services">
       <div class="services-header">
         <h2>Services</h2>
       </div>
@@ -93,7 +98,7 @@
     </section>
 
     <!-- TESTIMONIALS -->
-    <section class="testimonials">
+    <section id="testimonials" class="testimonials">
       <div class="testimonials-header">
         <h2>Testimonials</h2>
       </div>
