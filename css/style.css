@@ -37,6 +37,16 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
   color: white;
 }
 
+/* ABOUT SECTION */
+.about-header {
+  text-align: center;
+  padding: 5em;
+}
+
+.about-content {
+  margin: 0 5%;
+  border-style: none;
+}
 /* SERVICES SECTION */
 .services-header {
   text-align: center;
@@ -46,9 +56,6 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
   padding-bottom: 3em;
 }
 
-.icon-container {
-
-}
 
 .icons {
   color: #3EC6D2;
