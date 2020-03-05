@@ -58,9 +58,10 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
 
 
 .icons {
-  color: #3EC6D2;
+  color: #FFF;
   margin: 5px;
 }
+
 
 .hero-content {
   text-align: center;
@@ -75,7 +76,7 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
 
 .testimonials-header {
   text-align: center;
-  padding: 5em;
+  padding: 5em 2em;
 }
 
 .testimonial-text {
@@ -90,7 +91,7 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
 /* CONTACTS SECTION */
 .contact-header {
   text-align: center;
-  padding: 5em;
+  padding: 5em 2em;
 }
 
 /* FOOTER STYLES */
@@ -99,5 +100,6 @@ footer .card {
 }
 
 footer {
-  padding-top: 3em;
-}
+  padding: 2em;
+  background-color: #44D9E6;
+  }
