@@ -1,10 +1,13 @@
 /* font-family: 'Nunito', ;
 font-family: 'Montserrat', ; */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
   text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);    /* Got this from https://css3gen.com/text-shadow/*/
-
+  font-size: 1.15em;
 }
 
 h1, h2, h3, h4, h5, h6, navbar-brand {
@@ -18,6 +21,7 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
 .navbar-brand {
   width: 50px;
   height: 50px;
+  margin-left: 5px;
 }
 
 .btn {
@@ -30,6 +34,10 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
   background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/dentist-picture.jpg);
   height: 80vh;
   background-size: cover;
+}
+
+.hero-btn {
+  margin: 1.25em;
 }
 
 .main-header {
@@ -54,8 +62,12 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
 }
 .services-cards {
   padding-bottom: 3em;
+  border-radius: none;
 }
 
+.services-icon {
+  color: blue;
+}
 
 .icons {
   color: #FFF;
@@ -92,6 +104,10 @@ h1, h2, h3, h4, h5, h6, navbar-brand {
 .contact-header {
   text-align: center;
   padding: 5em 2em;
+}
+
+.contact-icon {
+  text-align: center;
 }
 
 /* FOOTER STYLES */
